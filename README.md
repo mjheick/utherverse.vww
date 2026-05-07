@@ -2,7 +2,7 @@
 decompiling communications between utherverse client and server via port 4990
 
 # Resolution
-Client communicates with ```http://www.utherverse.com/DNSResolve.aspx?type=A&query=utherverse.vww``` and it gets XML back
+Client communicates with ```http://www.utherverse.com/DNSResolve.aspx?type=A&query=utherverse.vww``` if it fails to communicate with ns1/ns2 and it gets XML back
 
 ```
 <DNSLookup version="1">
